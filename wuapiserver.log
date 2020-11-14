@@ -1,0 +1,83 @@
+25-Apr-20 21:09:37 - INFO - checking db
+25-Apr-20 21:09:37 - INFO - cleaning db
+25-Apr-20 21:09:37 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+25-Apr-20 21:09:55 - INFO - request received
+25-Apr-20 21:09:55 - ERROR - Exception on /weatherstation/updateweatherstation.php [GET]
+Traceback (most recent call last):
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/fdaloisio1/VisualStudioCode/wuapiserver/wuapiserver.py", line 100, in init
+    f.write(' '.join(MB))
+TypeError: sequence item 2: expected str instance, float found
+25-Apr-20 21:09:55 - INFO - 127.0.0.1 - - [25/Apr/2020 21:09:55] "[35m[1mGET //weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=61.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 500 -
+25-Apr-20 21:09:58 - INFO - request received
+25-Apr-20 21:09:58 - ERROR - Exception on /weatherstation/updateweatherstation.php [GET]
+Traceback (most recent call last):
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/fdaloisio1/VisualStudioCode/wuapiserver/wuapiserver.py", line 100, in init
+    f.write(' '.join(MB))
+TypeError: sequence item 2: expected str instance, float found
+25-Apr-20 21:09:58 - INFO - 127.0.0.1 - - [25/Apr/2020 21:09:58] "[35m[1mGET /weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=61.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 500 -
+25-Apr-20 21:10:15 - INFO - request received
+25-Apr-20 21:10:15 - ERROR - Exception on /weatherstation/updateweatherstation.php [GET]
+Traceback (most recent call last):
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\fdaloisio1\VisualStudioCode\wuapiserver\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/fdaloisio1/VisualStudioCode/wuapiserver/wuapiserver.py", line 100, in init
+    f.write(' '.join(MB))
+TypeError: sequence item 2: expected str instance, float found
+25-Apr-20 21:10:15 - INFO - 127.0.0.1 - - [25/Apr/2020 21:10:15] "[35m[1mGET /weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=61.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 500 -
+25-Apr-20 21:10:58 - INFO - checking db
+25-Apr-20 21:10:58 - INFO - cleaning db
+25-Apr-20 21:10:58 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+25-Apr-20 21:11:02 - INFO - request received
+25-Apr-20 21:11:02 - INFO - 04/25/2020 21:11:02 16.28 65 54.1 0 -- 140 0 0.03 29.82 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 16.28 -- 16.28 -- -- -- -- -- -- -- -- -- -- -- 0 -- -- 1.8 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+25-Apr-20 21:11:02 - INFO - 127.0.0.1 - - [25/Apr/2020 21:11:02] "[37mGET /weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=61.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 200 -
+19-Jun-20 14:07:39 - INFO - checking db
+19-Jun-20 14:07:57 - INFO - checking db
+19-Jun-20 14:07:57 - INFO - cleaning db
+19-Jun-20 14:07:57 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+19-Jun-20 14:08:39 - INFO - request received
+19-Jun-20 14:08:39 - INFO - 06/19/2020 14:08:39 19.1 65 12.3 0.0 -- 140 0.0 0.8 1009.8 -- -- -- -- -- -- -- -- 0.8 -- -- -- -- -- -- 19.1 -- 19.1 -- -- -- -- -- -- -- -- -- -- -- 0.0 -- -- 1.8 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+19-Jun-20 14:08:39 - INFO - 127.0.0.1 - - [19/Jun/2020 14:08:39] "[37mGET /weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=66.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 200 -
+19-Jun-20 14:08:39 - INFO - 127.0.0.1 - - [19/Jun/2020 14:08:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+19-Jun-20 14:10:35 - INFO - request received
+19-Jun-20 14:10:35 - INFO - 06/19/2020 14:10:35 19.1 65 12.3 0.0 -- 140 0.0 0.8 1009.8 -- -- -- -- -- -- -- -- 0.8 -- -- -- -- -- -- 19.1 -- 19.1 -- -- -- -- -- -- -- -- -- -- -- 0.0 -- -- 1.8 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+19-Jun-20 14:10:35 - INFO - 127.0.0.1 - - [19/Jun/2020 14:10:35] "[37mGET /weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=66.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 200 -
+19-Jun-20 14:13:22 - INFO - checking db
+19-Jun-20 14:13:22 - INFO - cleaning db
+19-Jun-20 14:13:22 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+19-Jun-20 14:13:27 - INFO - request received
+19-Jun-20 14:13:27 - INFO - 06/19/2020 14:13:27 19.1 65 12.3 0.0 -- 140 0.0 0.8 1009.8 -- -- -- -- -- -- -- -- 0.8 -- -- -- -- -- -- 19.1 -- 19.1 -- -- -- -- -- -- -- -- -- -- -- 0.0 -- -- 1.8 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+19-Jun-20 14:13:27 - INFO - 127.0.0.1 - - [19/Jun/2020 14:13:27] "[37mGET /weatherstation/updateweatherstation.php?ID=Stazione&PASSWORD=1234&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=29.82&tempf=66.3&humidity=65&windspeedmph=0&windgustmph=0&winddir=140&dewptf=54.1&rainin=0&dailyrainin=0.03&UV=1.8 HTTP/1.1[0m" 200 -
